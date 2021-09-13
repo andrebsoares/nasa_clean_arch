@@ -1,0 +1,31 @@
+name: nasa_clean_arch
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  equatable:
+  http:
+  dartz:
+  flutter_triple: ^1.2.4+3
+  shimmer: ^2.0.0
+  flutter_modular: ^3.4.1+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mocktail:
+
+flutter:
+
+  # the material Icons class.
+  uses-material-design: true
